@@ -1,4 +1,4 @@
-const gerarNumeroAleatorio = require('../src/RandomNumber/index');
+const gerarNumeroAleatorio = require('../src/RandomNumber/index.js');
 
 
 let inicio = 10;
