@@ -18,5 +18,13 @@ describe('Generate', () => {
     expect(inicio).not.toBe(fim);
   });
 
+  test('check if it is a range between 200 and 3000', () => {
+
+    let res = gerarNumeroAleatorio(inicio, fim);
+
+    expect(res).toBeGreaterThanOrEqual(200);
+    expect(res).toBeLessThanOrEqual(3000);
+  });
+
 
 });
