@@ -14,5 +14,9 @@ describe('Generate', () => {
     expect(fim).toBeGreaterThan(0);
   });
 
+  test('check if the beginning is not the same as the end', () => {
+    expect(inicio).not.toBe(fim);
+  });
+
 
 });
