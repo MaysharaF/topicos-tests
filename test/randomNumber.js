@@ -6,7 +6,13 @@ let fim = 90;
 
 describe('Generate', () => {
 
-  test('the start of the range is a negative value.', () => {
+  test('the start of the range is a negative value', () => {
     expect(inicio).toBeGreaterThan(0);
   });
+
+  test('the end of the range is a negative value', () => {
+    expect(fim).toBeGreaterThan(0);
+  });
+
+
 });
